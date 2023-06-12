@@ -5,11 +5,13 @@
     font-family: 'Kreon', serif;
     padding-bottom: 3rem;
 }
+
 .servicios-contenido {
     width: 90%;
     margin: 0 auto;
     padding-bottom: 3rem;
 }
+
 .servicios .name {
     font-size: 2rem;
     width: 90%;
@@ -25,6 +27,16 @@
     gap: 1rem;
     text-align: center;
     justify-items: center;
+}
+
+@media (max-width: 768px) {
+    .servicios-contenido {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+        text-align: center;
+        justify-items: center;
+    }
 }
 
 .card {
@@ -47,4 +59,9 @@
     font-size: 20px;
     margin-top: 2rem;
     margin-bottom: 2rem;
+}
+@media (max-width: 768px) {
+    .servicios-nota {
+        width: 70%;
+    }
 }

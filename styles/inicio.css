@@ -43,6 +43,14 @@
 .inicio-img img {
     max-width: 100%;
 }
+@media (max-width: 768px) {
+    .inicio-img img {
+        display: none;
+    }
+    .inicio-info {
+        width: 90%;
+    }
+}
 
 .btn-contacto {
     width: 50%;
