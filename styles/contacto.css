@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Kreon&display=swap');
+
+.contacto {
+    width: 90%;
+    margin: 0 auto;
+    font-family: 'Kreon', serif;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
+.contacto-contenido {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.card-contacto {
+    display: flex;
+    align-items: center;
+    background-color: rgb(247, 247, 247);
+    padding: 1.9rem;
+    border-radius: 8px;
+
+    display: flex;
+    column-gap: 18px;
+}
+
+.card-title {
+    font-size: 25px;
+}
+.card-details {
+    font-size: 18px;
+    color: rgb(105, 105, 105);
+}
+.card-icon img {
+    width: 60px;
+}
+.card-icon {
+    background-color: #06A3DB;
+    padding: 18px;
+    border-radius: 4px;
+}
+
+.whatsapp {
+    margin-top: 4rem;
+    font-size: 16px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.whatsapp p {
+    width: 40%;
+}
+.whatsapp img {
+    width: 80px;
+}

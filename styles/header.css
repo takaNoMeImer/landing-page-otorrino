@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Kreon&display=swap');
+
+header {
+    background-color: #4774E7;
+    padding: .5rem;
+    /* position: fixed;
+    width: 100%;
+    top: 0; */
+    /* margin-bottom: ; */
+}
+
+.navbar {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Kreon', serif;
+}
+.navbar-left, .navbar-options {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.navbar-options {
+    column-gap: 20px;
+}
+.navbar-left img{
+    width: 60px;
+}
+.navbar-left p {
+    font-size: 1.6rem;
+    color: white;
+}
+.navbar-options a {
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+}

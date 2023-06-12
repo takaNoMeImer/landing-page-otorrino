@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Kreon&display=swap');
+
+footer {
+    width: 90%;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: 'Kreon', serif;
+    
+    font-size: 1.4rem;
+    color: rgb(92, 92, 92);
+
+    display: flex;
+    justify-content: flex-end;
+}
+
